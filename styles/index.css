@@ -5,6 +5,37 @@
     font:inherit;
 }
 
+#topNav {
+    height: 35px;   
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    
+}
+  ul{
+      
+      display: flex;
+      align-items: center;
+  }
+
+ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    padding-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#apps {
+    display: block;
+    float:right top ;
+    clear: right;
+
+    width: 30px; height: 30px;
+    
+    
+    
+}
 
 #logo {
     display: block;
