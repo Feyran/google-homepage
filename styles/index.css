@@ -4,6 +4,14 @@
     font-size: 16px;
     font:inherit;
 }
+
+body {
+    width: 96%;
+}
+
+a{
+    text-decoration: none;
+}
 /*bottom footer*/
 footer {
     display: flex;
@@ -16,7 +24,7 @@ footer {
     background-color: rgb(239, 239, 239);
     border-top: 0.5px solid rgb(209, 209, 209);
 }
-a {
+footer a, #topNav a {
     width: auto;
     padding: 10px 15px;
     text-decoration: none;
@@ -30,38 +38,23 @@ a {
 }
 /*Top navigation bar, user icon and aler icon missing*/
 #topNav {
-    height: 35px;   
-    position: absolute;
-    right: 40px;
-    top: 15px;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
     
 }
-  ul{
-      
-      display: flex;
-      align-items: center;
-  }
-
-ul li{
-    display: flex;
-    flex-direction: row;
-    align-items: center;    
-    padding-right: 20px;
-    text-align: center;
-    padding-bottom: 10px;
-
-    color: #636363;
+#topNav li {
+    display: inline-block;
+    float: right;
 }
-#apps {
-    display: block;
-    float:right top ;
-    clear: right;
 
-    width: 30px; height: 30px;
-    
-    
-    
+#topNav #signIn {
+        background-color: #4387fd;
+        color: white;
+        font-weight: bold;
 }
+
+
 /* Google's logo and search bar, positioning and styling*/
 #logo {
     display: block;
@@ -95,9 +88,26 @@ ul li{
 #search:focus {
     outline: none;
 }
+/*Search buttons under search bar*/
+#searchButtons {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#searchButtons li {
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    
+
+}
 
 /*Font styling*/
 
 a, li{
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 100, 100);
+    
 }
