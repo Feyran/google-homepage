@@ -1,4 +1,4 @@
-2017.06
+2017.09
 Project: Building Google’s homepage
 Exercise in The Odin Project
 Hardcoded.
